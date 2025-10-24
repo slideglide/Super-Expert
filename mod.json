@@ -1,11 +1,12 @@
 {
-	"geode": "4.0.1",
+	"geode": "4.9.0",
 	"gd": {
 		"win": "2.2074",
+		"macc": "2.2074",
 		"android": "2.2074",
-		"mac": "2.2074"
+    "ios": "2.2074"
 	},
-	"version": "v1.0.2",
+	"version": "v1.0.3",
 	"id": "xanii.super_expert",
 	"name": "Super Expert",
 	"developers": [
@@ -16,7 +17,7 @@
 	"dependencies": [
         {
             "id": "geode.node-ids",
-            "version": ">=v1.17.0",
+            "version": ">=v1.21.1",
             "importance": "required"
         }
     ],
@@ -35,8 +36,10 @@
 			"resources/*.mp3"
 		]
     },
-	"repository": "https://github.com/LXanii/Super-Expert",
-	"settings": {
+    "links": {
+      "source": "https://github.com/LXanii/Super-Expert"
+    },
+		"settings": {
 		"map-music": {
 			"name": "Map Music",
 			"description": "Toggle on or off the super expert music whilst in the map",
